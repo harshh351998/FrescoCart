@@ -111,6 +111,10 @@ body {
     display: none;
 }
 
+.header .navbar.active {
+    right: 2rem;
+    transition: .4s linear;
+}
 .header .search-form {
     border: 0px solid;
     position: absolute;
@@ -278,4 +282,63 @@ body {
 .header .login-form p a {
     color: var(--green);
     text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries*/
+@media (max-width: 991px)
+{
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px)
+{
+    #menu-btn {
+        display: inline-block;
+    }
+    .header .navbar {
+        position: absolute;
+        top: 110%;
+        right: -110%;
+        width: 30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: .5rem;
+        background: #fff;
+    }
+
+    .header .navbar a {
+        font-size: 2rem;
+        margin: 2rem 2.5rem;
+        display: block;
+    }
+}
+
+
+@media (max-width: 450px)
+{
+    html {
+        font-size: 50%;
+    }
 }
