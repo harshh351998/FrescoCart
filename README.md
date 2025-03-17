@@ -1,8 +1,8 @@
-FrescoCart
+## FrescoCart
 
 FrescoCart is a simple e-commerce web application built using HTML, CSS, and JavaScript. This project provides a user-friendly shopping experience with an intuitive interface and interactive elements.
 
-Features
+### Features
 
 Responsive Design – Optimized for different screen sizes.
 
@@ -14,7 +14,7 @@ Custom Styling – Styled using CSS for an elegant look.
 
 JavaScript Interactivity – Implements dynamic behavior like cart updates and UI enhancements.
 
-Technologies Used
+### Technologies Used
 
 HTML – Structure of the website.
 
